@@ -1,0 +1,5 @@
+Memoria Principal
+RAM
+ROM
+Caché (L1,L2,L3,L4)
+

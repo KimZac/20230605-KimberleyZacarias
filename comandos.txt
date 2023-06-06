@@ -1,0 +1,176 @@
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias
+$ pwd
+/c/Users/kim_z/Desktop/DH/Github/20230605-KimberleyZacarias
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias
+$ git init
+Initialized empty Git repository in C:/Users/kim_z/Desktop/DH/Github/20230605-KimberleyZacarias/.git/
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ ls -a
+./  ../  .git/
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git config --global user.name KimZacarias
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git config --global user.mail kimzack28@gmail.com
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git remote add origin https://github.com/KimZac/20230605-KimberleyZacarias.git
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ touch comandos.txt main.js index.html
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ ls -a
+./  ../  .git/  comandos.txt  index.html  main.js
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git add .
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git commit -m "commit 01 de Kimberley Zacarias"
+[main (root-commit) 3617894] commit 01 de Kimberley Zacarias
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git log
+commit 361789482c50e3e0ca4791c65f9dec6e7e94f3a8 (HEAD -> main)
+Author: KimZacarias <kimzack28@gmail.com>
+Date:   Mon Jun 5 18:30:53 2023 -0600
+
+    commit 01 de Kimberley Zacarias
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 250 bytes | 250.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/KimZac/20230605-KimberleyZacarias.git
+ * [new branch]      main -> main
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git branch feature
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git checjout feature
+git: 'checjout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ mkdir Hardware Software SeguridadInformatica
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ cd Hardware
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/Hardware (feature)
+$ pwd
+/c/Users/kim_z/Desktop/DH/Github/20230605-KimberleyZacarias/Hardware
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/Hardware (feature)
+$ touch resumen.txt
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/Hardware (feature)
+$ cd ..
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ ls
+Hardware/  SeguridadInformatica/  Software/  comandos.txt  index.html  main.js
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ cd Software
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/Software (feature)
+$ touch resumen.txt
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/Software (feature)
+$ cd ..
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ cd SeguridadInformatica
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/SeguridadInformatica (feature)
+$ pwd
+/c/Users/kim_z/Desktop/DH/Github/20230605-KimberleyZacarias/SeguridadInformatica
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/SeguridadInformatica (feature)
+$ touch resumen.txt
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias/SeguridadInformatica (feature)
+$ cd ..
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ ls -a
+./   .git/      SeguridadInformatica/  comandos.txt  main.js
+../  Hardware/  Software/              index.html
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ git add .
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ git commit -m "commit 02 de Kimberley Zacarias"
+[feature 0a24e13] commit 02 de Kimberley Zacarias
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 385 bytes | 128.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/KimZac/20230605-KimberleyZacarias/pull/new/feature
+remote:
+To https://github.com/KimZac/20230605-KimberleyZacarias.git
+ * [new branch]      feature -> feature
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (feature)
+$ git checkout main
+Switched to branch 'main'
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ mv C:\Users\kim_z\Desktop\DH\Github\20230605-KimberleyZacarias^C
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ mv C:\Users\kim_z\Desktop\DH\Github\20230605-KimberleyZacarias\main.js C:\Users\kim_z\Desktop\DH\Github\20230605-KimberleyZacarias\resumenHardware.txt
+mv: cannot stat 'C:Userskim_zDesktopDHGithub20230605-KimberleyZacariasmain.js': No such file or directory
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ mv Users\kim_z\Desktop\DH\Github\20230605-KimberleyZacarias\main.js Users\kim_z\Desktop\DH\Github\20230605-KimberleyZacarias\resumenHardware.txt
+mv: cannot stat 'Userskim_zDesktopDHGithub20230605-KimberleyZacariasmain.js': No such file or directory
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ mv main.js resumenHardware.txt
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ mv index.html resumenHardware.txt
+
+kim_z@Kim-Zac MINGW64 ~/Desktop/DH/Github/20230605-KimberleyZacarias (main)
+$ nano resumenHardware.txt
